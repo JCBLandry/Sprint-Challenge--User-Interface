@@ -147,6 +147,7 @@ footer nav a {
 .navbut{
     text-decoration: none;
     color:black;
+    
 }
 
 .flexit{
@@ -155,9 +156,13 @@ footer nav a {
 
 .flexnav{
     display: flex;
-    justify-content: space-evenly;
-    margin: 20px;
-    align-self: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+    align-items: flex-end;
+}
+
+.imgmar{
+    margin: 0 0 20px 0;
 }
 
 .teal{

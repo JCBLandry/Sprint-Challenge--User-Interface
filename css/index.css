@@ -201,6 +201,7 @@ footer nav a {
 .dadmar{
  padding: 30px;
 }
+
 .teal{
     background: teal;
 }
@@ -249,7 +250,6 @@ footer nav a {
     padding: 15px;
     border: 2px dashed grey;
     border-radius: 20px;
-    display: inline;
 }
 
 footer nav a:hover{

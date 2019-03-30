@@ -172,12 +172,34 @@ footer nav a {
 
 .middle-about{
     display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
 }
 
 .innerflex{
     display: flex;
-    border: 1px solid black;
     flex-direction: column;
+    margin: 20px;
+    align-content: flex-start;
+    border-bottom: 1px dashed black;
+}
+
+.button{
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+    align-self: flex-start;
+    margin: 20px 0;
+}
+
+.mar{
+    margin: 10px 0 0 0;
+}
+
+.dadmar{
+ padding: 30px;
 }
 .teal{
     background: teal;

@@ -165,6 +165,20 @@ footer nav a {
     margin: 0 0 20px 0;
 }
 
+.lilbor{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-about{
+    display: flex;
+}
+
+.innerflex{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+}
 .teal{
     background: teal;
 }

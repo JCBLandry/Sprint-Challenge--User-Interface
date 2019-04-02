@@ -104,7 +104,6 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.navbut{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.flexit{
+    display: flex;
+}
+
+.flexnav{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+    align-items: flex-end;
+}
+
+.imgmar{
+    margin: 0 0 20px 0;
+}
+
+.lilbor{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.middle-about{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.innerflex{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-content: flex-start;
+    border-bottom: 1px dashed black;
+}
+
+.button{
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+    align-self: flex-start;
+    margin: 20px 0;
+}
+
+.mar{
+    margin: 10px 0 0 0;
+}
+
+.dadmar{
+ padding: 30px;
+}
+
+.teal{
+    background: teal;
+}
+
+.gold{
+    background: gold;
+}
+
+.cadetblue{
+    background: cadetblue;
+}
+
+.coral{
+    background: coral;
+}
+
+.forestgreen{
+    background: forestgreen;
+}
+
+.darkorchid{
+    background: darkorchid;
+}
+
+.hotpink{
+    background: hotpink;
+}
+
+.indigo{
+    background: indigo;
+}
+
+.dodgerblue{
+    background: dodgerblue;
+}
+
+.crimson{
+    background: crimson;
+}
+
+.button:hover {
+    background:grey;
+}
+
+.flexnav a:hover{
+    padding: 15px;
+    border: 2px dashed grey;
+    border-radius: 20px;
+}
+
+footer nav a:hover{
+    color: red;
 }
